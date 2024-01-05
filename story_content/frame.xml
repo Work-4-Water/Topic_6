@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001110101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns00001110101" font="Lato" controllayout="npnxnanbsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="pxabnsnfns00001110101" font="Lato" controllayout="pxabnsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="npxnabnsnfns00001110101" font="Lato" controllayout="npxnabnsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="npnxnanbnsnfns00001110101" font="Lato" controllayout="npnxnanbnsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="pxabnsnfns00001110100" font="Lato" controllayout="pxabnsnfns00001110100" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Work-4-Water Topic 6" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001110101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001110101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6MrWXMtr2j0.6DK5Yk4Sj1P" displaytext="Welcome" expand="false" type="slide" />
+        <slidelink slideid="_player.6MrWXMtr2j0.6WwR12hxLbs" displaytext="Instructions" expand="false" type="slide" />
+        <slidelink slideid="_player.6MrWXMtr2j0.69WRrfdvEKN" displaytext="Course Topics" expand="false" type="slide" />
+        <slidelink slideid="_player.6MrWXMtr2j0.6CUcS9Rxo28" displaytext="Learning Targets" expand="false" type="slide" />
+        <slidelink slideid="_player.6MrWXMtr2j0.6qQnEbAMK2X" displaytext="Main Menu" expand="false" type="slide" />
+        <slidelink slideid="_player.6MrWXMtr2j0.6Vk58vj969p" displaytext="Section 1" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6MrWXMtr2j0.6QNEW9iUY3L" displaytext="Overview of Key Roles" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MrWXMtr2j0.6Ca6QWosssg" displaytext="Section 2" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6MrWXMtr2j0.5gFiS3OysxT" displaytext="Overview of Credential Categories" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrWXMtr2j0.5bVsbdz66A8" displaytext="Credential and Career Alignment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MrWXMtr2j0.5i4qwQ8Trnu" displaytext="Section 3" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6MrWXMtr2j0.6QPvmwMoJAt" displaytext="Career Pathways Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrWXMtr2j0.6hEWWoe0Nak" displaytext="Career Pathways Details" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MrWXMtr2j0.5YFTZodc4Sl" displaytext="Section 4" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6MrWXMtr2j0.5kSbKZnF9iu" displaytext="Education" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrWXMtr2j0.624aXH42F4h" displaytext="DOH Certification" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrWXMtr2j0.6W0wTe51MNn" displaytext="General Contractor" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrWXMtr2j0.6QWbM3q4QWY" displaytext="Engineering License" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrWXMtr2j0.6ELARDijw1Z" displaytext="Appreticeship and Internship" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MrWXMtr2j0.5zEmXMWvxCU" displaytext="Summary" expand="false" type="slide" />
+        <slidelink slideid="_player.6MrWXMtr2j0.6MXYDAXS7gc" displaytext="Exit" expand="false" type="slide" />
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://docs.google.com/document/d/1iVC4hnwbPzdD_Fk67BAb63F1RmeQHU_6zaXFpWjLZLQ/edit#heading=h.tlwtubocnl0" image="story_content/url.png" title="Course Resources" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Activated Sludge">Secondary treatment/biological wastewater treatment process that involves the use of microorganisms in a suspension to break down organic matter and remove contaminants from water.</term>
+      <term title="Aerobic">A process that requires oxygen for oxygen loving microorganisms to break down organic matter in wastewater.</term>
+      <term title="Anaerobic">A process that occurs in the absence of oxygen where oxygen hating microorganisms break down organic matter in wastewater.</term>
+      <term title="ATU">Aerobic Treatment Unit</term>
+      <term title="Authorized Sewage Flow">The maximum allowable volume of wastewater a treatment system or facility can receive and process. It represents the approved capacity designated by regulatory authorities to ensure proper treatment and prevent system overloading.</term>
+      <term title="Basalt">Porous volcanic rock material that can be utilized as a filtration medium to remove contaminants and impurities from wastewater.</term>
+      <term title="Biochar">Biochar is a form of charcoal produced from biomass through a process called pyrolysis. In the context of wastewater, biochar can be used as a sustainable treatment option. It has the ability to adsorb and remove contaminants, such as heavy metals and organic compounds, from wastewater, thereby contributing to water quality improvement.</term>
+      <term title="Biological Oxygen Demand (BOD)">A measure of the amount of dissolved oxygen that microorganisms use for biochemical degradation of organic matter (e.g., waste) in water. BOD is often used as an indicator of water quality and the level of organic pollution. High BOD levels can deplete dissolved oxygen in water bodies, leading to harm to aquatic life and overall ecosystem health.</term>
+      <term title="Bioreactor">Systems that use living organisms to break down and treat organic pollutants.</term>
+      <term title="Blackwater">Blackwater contains wastewater from toilets and is typically highly contaminated with fecal matter, urine, and pathogens.</term>
+      <term title="Carbon Sequestration">Carbon sequestration is the process of capturing and storing carbon dioxide (CO2) from the atmosphere and other sources. In the context of wastewater, carbon sequestration can refer to the capture and storage of CO2 from wastewater treatment processes, such as anaerobic digestion or other biological treatments. This can help to reduce greenhouse gas emissions and mitigate climate change impacts.</term>
+      <term title="Certificate">A certificate is a credential that confirms an individual's successful completion of a specific program, course, or training in wastewater management. It demonstrates that the individual has gained the necessary theoretical knowledge and practical skills required to work in the field. Certificates in wastewater can vary in length and focus, ranging from short-term introductory programs to more comprehensive training programs.</term>
+      <term title="Cesspool">An underground chamber or pit that collects and holds wastewater or sewage, allowing it to slowly leach into the surrounding soil without treatment.</term>
+      <term title="Chemical Oxygen Demand (COD)">A measure of the amount of oxygen required to chemically oxidize organic matter and some inorganic compounds in water. COD is used to assess water quality and the presence of potentially harmful substances that can consume oxygen during degradation. Elevated COD levels can indicate pollution and the potential for oxygen depletion in water bodies.</term>
+      <term title="Clarifier">Clarifier, also known as settling tanks are a large tank used in wastewater treatment to allow solids to settle out of the water before it is treated further. Clarifiers use gravity to remove solids, and are typically designed to remove larger particles than settling tanks.</term>
+      <term title="Clay soils">Clay soils are comprised of fine particles that compact easily. They have high water holding capacity, but poor drainage. Clay soils can become sticky and hard when dry and can be challenging to work with. Clay soils can restrict the movement of wastewater, potentially leading to waterlogging and increased risk of contamination if not properly managed.</term>
+      <term title="Clean Water Act- CWA">The Clean Water Act (CWA) is a federal law in the United States that regulates the quality of surface waters, such as rivers, lakes, and coastal areas. It sets standards for wastewater treatment and discharge to protect water resources and maintain water quality.</term>
+      <term title="Clean Water Branch- CWB">CWB stands for Clean Water Branch, which is a regulatory branch under the Hawaiʻi Department of Health. The CWB is responsible for implementing and enforcing regulations related to wastewater discharges and protecting water quality in the state.</term>
+      <term title="Cluster System">A wastewater management system that involves multiple smaller treatment units that connect multiple homes called clusters that treat and dispose of wastewater instead of a single centralized facility. The clusters are located closer to the source of wastewater and can serve smaller communities.</term>
+      <term title="Contaminants of emerging concern (CECs)">Substances that are not commonly regulated, but are emerging as potential contaminants in water sources. These contaminants can include pharmaceuticals, personal care products, pesticides, and other chemicals. CECs can have unknown or potentially harmful effects on aquatic ecosystems and human health.</term>
+      <term title="Coral bleaching">A phenomenon in which corals lose their vibrant colors and turn white or pale due to environmental stressors, such as increased water temperature and pollution. Coral bleaching is an indication of coral stress and can often lead to the death of corals and the degradation of reef ecosystems.</term>
+      <term title="Credential">A credential in the context of wastewater refers to a validation or proof of an individual's qualification or competence in a specific area. It can be in the form of a certificate, license, or degree. A credential can demonstrate that an individual has acquired the necessary knowledge, skills, and experience to work in the wastewater industry, ensuring that they can perform their duties safely and effectively.</term>
+      <term title="Decentralized wastewater treatment">A wastewater treatment system that is located near the source of wastewater, such as individual homes or businesses, rather than in a central wastewater plant. Can include individual onsite systems and cluster</term>
+      <term title="Degree">A degree in the context of wastewater usually refers to an academic qualification awarded by a college or university upon the completion of a bachelor's, master's, or doctoral program in subjects related to wastewater science, engineering, or management. Obtaining a degree indicates a higher level of education and expertise in the field and can open up opportunities for advanced roles, research, and teaching in the wastewater industry.</term>
+      <term title="Denitrification">The process by which certain bacteria convert nitrates (NO3-) into gaseous nitrogen compounds, such as nitrogen gas (N2) or nitrous oxide (N2O), under low-oxygen (anaerobic) conditions. Denitrification helps return nitrogen to the atmosphere, completing the nitrogen cycle and reducing the accumulation of excess nitrogen compounds in ecosystems. In the context of wastewater, denitrification is important for the removal of excess nitrate from wastewater and the prevention of nitrogen pollution in water bodies.</term>
+      <term title="Department of Health- DOH">The Hawaiʻi Department of Health (DOH) is the government agency responsible for protecting and promoting the health and safety of the residents and visitors of Hawaiʻi. In the context of wastewater, DOH sets regulations and standards for wastewater treatment and disposal.</term>
+      <term title="Depth to Water Table">The distance from the ground surface to the level at which the soil and rock are saturated with water.</term>
+      <term title="Disinfection">Disinfection is the final step in wastewater treatment before the effluent is discharged or reused. It involves the killing or inactivation of harmful pathogens and microorganisms present in the wastewater. Common methods of disinfection include the use of chemicals (such as chlorine or ozone), or ultraviolet (UV) radiation. Disinfection helps ensure that the treated wastewater does not pose a risk to public health or the environment upon release. The specific disinfection method used depends on the required effluent quality standards and the intended use of the treated wastewater.</term>
+      <term title="Disposal System">Also known as absorption bed, absorption field, drainage field, and leach field. The method or system used to safely and properly get rid of treated wastewater or sewage, such as through discharge into bodies of water, land application, or other environmentally friendly means. Some systems can provide further treatment. </term>
+      <term title="Dosing Pipe">A pipe used in wastewater treatment systems to distribute treated effluent evenly across a soil absorption system. Dosing pipes are typically placed beneath the surface of the soil, and discharge effluent at specific intervals to ensure uniform distribution and percolation rates.</term>
+      <term title="Effluent">Treated or untreated wastewater that flows out of a treatment plant, sewer, or industrial outfall.</term>
+      <term title="Effluent Release Rate">The rate at which treated wastewater is released from a treatment system, typically measured in gallons per day or other flow units. The effluent release rate is an important parameter in determining the appropriate size and design of a wastewater treatment system, as well as any potential environmental impacts from the discharge of treated effluent.</term>
+      <term title="Emerging technologies">Emerging technologies are at a research stage and/or are undergoing pilot-testing or full-scale probationary approval in other states. They are not commercially available and do not have established regulatory design criteria. DOH Wastewater Branch does not currently have a process for approving these technologies</term>
+      <term title="Emitter">A device used in drip irrigation systems and other forms of wastewater treatment to release treated effluent into the soil. Emitters control the flow rate and ensure that effluent discharges evenly and uniformly across the treatment area.</term>
+      <term title="EPA - Environmental Protection Agency">The Environmental Protection Agency (EPA) is a federal agency in the United States responsible for protecting human health and the environment. In the context of wastewater, the EPA sets regulations and standards for wastewater management and treatment.</term>
+      <term title="Eutrophication">A process in which a body of water becomes enriched with excess nutrients, usually nitrogen and phosphorus. This nutrient overload stimulates excessive growth of algae and other aquatic plants, leading to reduced oxygen levels and potential harm to aquatic organisms. Eutrophication often occurs due to activities like agriculture, urban runoff, and wastewater discharges.</term>
+      <term title="Evaporation and Transpiration">Two separate processes that make up the larger process of evapotranspiration. Evaporation is the conversion of liquid water to water vapor, while transpiration is the process by which water is lost from plants through the openings in their leaves. They both contribute to the overall movement of water in the environment.</term>
+      <term title="Evapotranspiration">A process that involves the combined loss of water through both transpiration (from plant surfaces) and evaporation (from soil and water surfaces). It is a natural component of the water cycle and plays an important role in the movement and distribution of water in the environment.</term>
+      <term title="Flood Zones">Areas that are prone to flooding during periods of heavy rainfall or high water levels in rivers, lakes, or coastal areas.</term>
+      <term title="Gleying soil">Gleying soil is characterized by a gray or bluish-gray color due to prolonged waterlogging or poor drainage. The lack of oxygen in waterlogged conditions leads to a reduction in iron and other</term>
+      <term title="Greenhouse gases">Gases that trap heat in the Earth's atmosphere and contribute to the greenhouse effect. The most common greenhouse gases include carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O). Human activities, such as burning fossil fuels and deforestation, have significantly increased the concentrations of greenhouse gases in the atmosphere, leading to global warming and climate change.</term>
+      <term title="Greywater">Greywater refers to the relatively clean wastewater generated from bathing, washing dishes, and laundry.</term>
+      <term title="Herbivore">An organism that primarily feeds on plants or plant materials.</term>
+      <term title="Horizonation">Horizonation refers to the formation of soil horizons, or distinct layers of soil, that are differentiated from each other based on their physical, chemical, and biological properties. These layers can provide clues about a soil's history, development, and potential uses.</term>
+      <term title="Human Waste">Urine and feces from people, and depending on the collection system, can also include wash water and toilet paper. </term>
+      <term title="Hydrogeology">The study of the distribution and movement of groundwater in the subsurface, including its interactions with geological formations.</term>
+      <term title="Infiltration">The movement of water into soil or other media. In wastewater treatment, infiltration is an important process for treating effluent in soil absorption systems and removing contaminants from the water before it re-enters the groundwater system.</term>
+      <term title="Innovative technologie">Innovative technologies are commercially available outside of Hawai’i, but do not have established regulatory design criteria and would require design review by DOH Wastewater Branch</term>
+      <term title="Inorganic Matter">Any substance that does not contain carbon and is not derived from living organisms. Examples include minerals, metals, water, and gases such as carbon dioxide and oxygen.</term>
+      <term title="IWS">IWS stands for individual wastewater systems, also known as On-Site Wastewater Treatment Systems. IWS are installed in areas where connection to a centralized sewer system is not feasible or cost-effective. These systems treat and dispose of wastewater on-site, typically using a septic tank and soil absorption system. IWS require regular maintenance and monitoring to ensure proper functioning and prevent contamination of groundwater and surface water.</term>
+      <term title="License">A license is a formal authorization issued by a regulatory authority that grants an individual the legal permission to practice a specific profession or carry out certain activities in the wastewater industry. To obtain a license, individuals typically need to meet specific education and experience requirements, pass an examination, and adhere to professional standards and ethics. Holding a license ensures that individuals have met the necessary qualifications and are competent to perform their job duties.</term>
+      <term title="Loamy soil">Loamy soil is a well-balanced soil type that contains a desirable mixture of sand, silt, and clay particles. It has good drainage while retaining adequate moisture and nutrients.  Loamy soil can provide effective filtration and treatment of wastewater before it reaches groundwater.</term>
+      <term title="Maximum Contaminant Levels (MCL)">Maximum Contaminant Levels (MCL) are the highest allowable concentrations of specific pollutants or contaminants in drinking water, as established by the EPA. These levels are set to protect public health and are legally enforceable standards.</term>
+      <term title="Maximum Daily Sewage">The maximum amount of sewage or wastewater allowed to be discharged into the environment in a single day, usually regulated by environmental or wastewater treatment authorities.</term>
+      <term title="Mottling soil">Mottling soil refers to the presence of irregularly shaped spots or streaks of different color or color intensity in the soil. It can indicate variations in soil drainage, periods of waterlogging, or soil development processes. Mottling is commonly observed in poorly drained soils or those with fluctuating water tables.</term>
+      <term title="National Pollutant Discharge Elimination System (NPDES)">The National Pollutant Discharge Elimination System (NPDES) is a national program in the United States that regulates the discharge of pollutants into the waters of the country, including wastewater and stormwater. Facilities that discharge pollutants are required to obtain permits under this program.</term>
+      <term title="Nitrification">The biological process by which certain bacteria convert ammonia (NH3) or ammonium (NH4+) into nitrite (NO2-) and further oxidize it into nitrate (NO3-). Nitrification is an essential part of the nitrogen cycle and contributes to the conversion of nitrogen compounds into forms that can be taken up by plants or further transformed by denitrification. In the context of wastewater, nitrification is an essential part of the nitrogen cycle, helping to convert harmful ammonia into less harmful nitrate through the action of nitrifying bacteria in wastewater treatment systems.</term>
+      <term title="Nitrogen cycle">The natural biogeochemical cycle that describes the transformation of nitrogen and its compounds in the environment. The nitrogen cycle involves processes such as nitrogen fixation, nitrification, assimilation, ammonification, and denitrification. It is vital for the availability of nitrogen as a nutrient for living organisms and plays a significant role in ecosystems and agricultural systems.</term>
+      <term title="Non-Sewered System">A localized, small-scale system for managing human waste not connected to a networked sewer system.</term>
+      <term title="Onsite Treatment">A type of decentralized wastewater treatment where the treatment process occurs on the property where the wastewater is generated, such as septic systems.</term>
+      <term title="Organic Matter">Any substance that contains carbon and is derived from living organisms, or from organisms that were once alive. Examples include plants, animals, and waste materials.</term>
+      <term title="OWTS">OWTS stands for On-Site Wastewater Treatment Systems, also known as individual wastewater systems (IWS). OWTS are installed in areas where connection to a centralized sewer system is not feasible or cost-effective. These systems treat and dispose of wastewater on-site, typically using a septic tank and soil absorption system. OWTS require regular maintenance and monitoring to ensure proper functioning and prevent contamination of groundwater and surface water.</term>
+      <term title="Pathogen">A bacteria, virus, or other microoorganism that can cause disease.</term>
+      <term title="Percolate">The downward movement of water through soil or other media. In wastewater treatment, percolation is important for ensuring that effluent is evenly distributed and treated by soil absorption systems.</term>
+      <term title="Percolation">Percolation refers to the downward movement of water through the soil profile. It is an important process for groundwater recharge and nutrient movement. Percolation rate can vary depending on soil texture and structure, with sandy soils typically allowing faster percolation compared to clay soils. Percolation is important for the filtration and treatment of wastewater as it passes through the soil, removing contaminants before reaching groundwater sources.</term>
+      <term title="Percolation Rates">The rate at which water can move through a specific soil type or other media. In wastewater treatment, percolation rates are important for designing soil absorption systems that can effectively treat and remove contaminants from effluent. Lower percolation rates indicate less permeable soil, which may require the use of specialized techniques such as dosing or pressure distribution to ensure even distribution of effluent across the treatment area.</term>
+      <term title="Permeability">Permeability refers to the ability of soil to allow the movement of air and water through its pore spaces. It is influenced by factors like soil texture and structure. Soils with high permeability have good drainage and allow water to infiltrate quickly, while soils with low permeability can lead to waterlogging and poor aeration. </term>
+      <term title="pH">A measure of the acidity or alkalinity of a substance, such as water or soil. pH is based on the concentration of hydrogen ions (H+) present in the substance. A pH value of 7 is considered neutral, values below 7 are acidic, and values above 7 are alkaline or basic. pH is an important parameter for many biological and chemical processes and affects the survival of organisms in their habitats.</term>
+      <term title="Photosynthesis">The process by which green plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose (a simple sugar) and oxygen. Photosynthesis is the primary means by which energy is captured from the sun and utilized by living organisms. It is also responsible for releasing oxygen into the atmosphere.</term>
+      <term title="Preliminary treatment">Preliminary treatment is the first stage of wastewater treatment. It involves the removal of large solids and debris from the wastewater through processes such as screening and grit removal. Preliminary treatment helps prevent damage to equipment and clogging in subsequent treatment processes, and protects the structures and components of the wastewater treatment plant.</term>
+      <term title="Primary treatment">Primary treatment is the second stage of wastewater treatment. It aims to remove suspended solids and organic matter from the wastewater through physical processes such as sedimentation and flotation. During primary treatment, heavy solids settle to the bottom of sedimentation tanks, forming a sludge layer, while lighter solids float to the surface and are skimmed off. Primary treatment helps reduce the organic load of the wastewater and prepares it for further treatment processes.</term>
+      <term title="Safe Drinking Water Act- SDWA">The Safe Drinking Water Act (SDWA) is a federal law in the United States that regulates the quality of drinking water. It establishes the standards and requirements for the treatment and distribution of drinking water to ensure its safety for public consumption.</term>
+      <term title="Safe Drinking Water Branch- SDWB">SDWB stands for Safe Drinking Water Branch, another regulatory branch under the Hawaiʻi Department of Health. The SDWB is responsible for ensuring the safety and quality of public drinking water supplies in Hawaiʻi, including setting standards and conducting inspections.</term>
+      <term title="Sandy soil">Sandy soil is characterized by large particles and a gritty texture. It drains quickly and does not hold water or nutrients well. Sandy soil is characterized by good drainage and low water-holding capacity. Sandy soils can allow wastewater to infiltrate quickly, which may increase the risk of contamination if not properly managed.</term>
+      <term title="Santation System"> Functional units for collecting human waste and wastewater that includes container systems, septic systems, and sewer systems.</term>
+      <term title="Scum">Scum refers to a floating layer of organic matter that forms on the surface of wastewater during the treatment process. It is typically composed of substances such as oils, grease, and other floating debris that are present in the wastewater. Exceess scum can lead to unpleasant odors, inhibit the growth of beneficial bacteria, and cause issues with equipment and processes downstream.</term>
+      <term title="Seasonal high water table indicators">These are signs that indicate the highest point that groundwater is likely to rise during certain times of the year. These indicators can include the presence of certain plants, the depth of soil saturation, and other factors. Seasonal high water table indicators can help plan the placement and design of wastewater systems, considering the potential risk of groundwater contamination.</term>
+      <term title="Secondary treatment">Secondary treatment is the third stage of wastewater treatment. It involves the biological treatment of the wastewater to remove dissolved and suspended organic matter that remains after primary treatment. The most common method used in secondary treatment is the activated sludge process, in which microorganisms break down organic matter in the presence of oxygen. Secondary treatment helps further reduce the organic content of the wastewater and improves its quality before further treatment or discharge.</term>
+      <term title="Sediment smothering">A process in which sediments, such as soil cover and settle onto the surface of aquatic habitats, including riverbeds, lakes, and coral reefs. Sediment smothering can harm and suffocate organisms, disrupt feeding and reproductive activities, and degrade the overall habitat quality of aquatic ecosystems.</term>
+      <term title="Settling Tank">Settling tanks, also known as clarfiers are a tank used in wastewater treatment to allow solids to settle out of the wastewater before it is treated further. Settling tanks can be designed to remove a specific size range of solids, and are often used in combination with other treatment processes such as sedimentation and filtration.</term>
+      <term title="Sewage">Sewage is human waste transported specifically through sewers. Sewage is a major component of wastewater.</term>
+      <term title="Sewered System">A network of underground pipes or tunnels that transports wastewater either to a treatment plant or directly into the environment.</term>
+      <term title="Siltation">The process of depositing fine particles, often silt or clay, in a body of water. Siltation can occur naturally through erosion and sediment transport but is often accelerated by human activities such as deforestation, construction, and agriculture. Excessive siltation can lead to water pollution, reduced water clarity, and negative impacts on aquatic organisms and ecosystems.</term>
+      <term title="Sizing Criteria">Specific guidelines or parameters used to determine the appropriate size or capacity of a wastewater treatment system, such as the volume of sewage it can effectively handle or a house’s number of bedrooms it can accommodate. Sizing criteria ensure that the system functions efficiently and meets the required standards.</term>
+      <term title="Skimming Tank">A tank used in wastewater treatment to remove floatable materials such as grease and oils from the surface of the wastewater. Skimming tanks use surface tension and gravity to capture and remove floatable materials, which can interfere with downstream treatment processes if not removed.</term>
+      <term title="Slope">The angle or steepness of the ground surface, which affects the movement and flow of water over the land.</term>
+      <term title="Sludge">Solid waste material produced during the wastewater treatment process, typically consisting of a mixture of solids and liquids.</term>
+      <term title="Soil Amendment">Soil amendment is the process of adding organic or inorganic materials to soil to improve its fertility, texture, structure, or other properties. In the context of wastewater, treated wastewater can be used as a soil amendment to provide nutrients and other beneficial elements to soil for plant growth or other agricultural or landscape purposes. Soil amendment can help to conserve water and prevent crop damage due to drought or poor soil quality.</term>
+      <term title="Soil color">The visual appearance or hue of soil, which is influenced by the composition and concentration of minerals, organic matter, and other substances present in the soil profile. Soil color can provide insights into soil properties, such as fertility, composition, moisture content, and organic matter content.</term>
+      <term title="Soil compaction">Soil compaction refers to the process of soil becoming denser and more compressed, which can reduce the pore space in soil and reduce soil permeability, potentially restricting the movement and filtration of wastewater through the soil profile.</term>
+      <term title="Soil Permeability">The ability of soil to allow water to pass through it. It is influenced by factors such as soil composition and texture.</term>
+      <term title="Soil Properties">Characteristics of soil such as texture, structure, porosity, and fertility that affect its ability to retain and transmit water.</term>
+      <term title="Soil texture">Soil texture refers to the proportion of sand, silt, and clay particles in soil. The texture of soil can directly affect its ability to hold water and nutrients. Soil texture influences the ability of the soil to absorb and filter wastewater, as well as the potential for wastewater to percolate into groundwater and potentially contaminate it.</term>
+      <term title="Stormwater">Stormwater is the runoff from rain or snow that carries pollutants from streets, parking lots, and other urban areas.</term>
+      <term title="Stormwater permitting">Stormwater permitting relates to the regulation and management of stormwater runoff, which occurs when rainwater or snowmelt flows over the land and is not absorbed into the ground. This runoff can pick up pollutants such as oil, chemicals, and debris from surfaces like roads, parking lots, and construction sites, and carry them into nearby water bodies. Stormwater permitting involves obtaining a permit that sets guidelines and requirements for entities like municipalities, businesses, and industries to manage and control stormwater runoff. These permits typically outline measures such as installing retention ponds, implementing best management practices, and monitoring water quality to prevent or reduce the pollution caused by stormwater runoff.</term>
+      <term title="Subsurface Wastewater Infiltration System (SWIS)">A wastewater treatment system that involves injecting treated wastewater into the soil beneath the surface, where it is filtered and treated further by the underlying geologic layers. It is a type of soil absorption system designed to treat and dispose of wastewater in areas where conventional sewer systems are not available.</term>
+      <term title="Surface Water Setback">A specified distance or buffer zone required between a development site or wastewater facility and a surface water body, such as a river, lake, or coastal area. It aims to prevent pollution and protect the water quality of surface waters from potential contamination.</term>
+      <term title="Suspended Solids">Solid particles that are suspended in a liquid, usually water. Suspended solids can include a variety of particles such as silt, clay, organic matter, and microorganisms. They can affect water clarity and may be harmful to aquatic life if present in high concentrations.</term>
+      <term title="Sustainability">Sustainability, in the context of wastewater, refers to the practice of managing and using water resources in a way that meets the needs of the present generation without compromising the ability of future generations to meet their own needs. It involves balancing environmental, social, and economic factors for long-term water management.</term>
+      <term title="Tertiary treatment">Tertiary treatment is the fourth and advanced stage of wastewater treatment. It focuses on removing remaining pollutants and contaminants that are not effectively removed in primary and secondary treatment. Tertiary treatment often involves processes such as filtration, disinfection, and nutrient removal. The goal is to produce effluent of a high quality that can be safely discharged or reused for specific purposes such as irrigation or industrial processes. Tertiary treatment is not always required for all wastewater treatment, but it provides an extra level of treatment for stringent effluent quality standards or specific water reuse applications.</term>
+      <term title="Total Maximum Daily Load (TMDL)">Total Maximum Daily Load (TMDL) refers to the maximum amount of a pollutant that a water body can receive while still meeting water quality standards. TMDLs are specific to individual water bodies and are used to develop plans and strategies to reduce pollution and improve water quality.</term>
+      <term title="Total Maximum Daily Loads (TMDL)">Total Maximum Daily Loads refer to the maximum amount of pollutants a water body, such as a river or lake, can handle while meeting water quality standards. In simpler terms, it's like a "pollution budget" for a particular waterway. The TMDL is calculated by considering the water body's capacity to handle pollutants and the desired water quality standards. TMDL identifies and regulates the level of pollutants that can be released into water bodies, effectively safeguarding their health and preventing degradation.</term>
+      <term title="Total Suspended Solids (TSS)">The measure of the total amount of solid particles, both organic and inorganic, that are suspended in water. TSS is determined by filtering a water sample and weighing the residue. High TSS levels can indicate poor water quality, reduced clarity, and harmful effects on aquatic life and habitats.</term>
+      <term title="Transpiration and Evaporation">Two separate processes that make up the larger process of evapotranspiration. Evaporation is the conversion of liquid water to water vapor, while transpiration is the process by which water is lost from plants through the openings in their leaves. They both contribute to the overall movement of water in the environment.</term>
+      <term title="Treatment System">A process used to remove impurities and harmful substances from wastewater or sewage in order to make it safe for disposal or reuse.</term>
+      <term title="UN SDG">UN SDG stands for United Nations Sustainable Development Goals. These goals are a collection of 17 global goals adopted by United Nations member states in 2015 to address various social, economic, and environmental challenges, including issues related to water, sanitation, and sustainable development.</term>
+      <term title="UN SDG Goal 6">UN SDG Goal 6 specifically focuses on ensuring access to clean water and sanitation for all. It aims to improve water quality, increase water efficiency, promote sustainable water usage, provide access to basic sanitation services, and enhance water-related ecosystems and cooperation at local, national, and global levels.</term>
+      <term title="Underground Injection Control (UIC)">UIC is a process of injecting fluids into underground aquifers. UIC are used in Hawaiʻi to dispose of hazardous and non-hazardous waste by injecting it into underground aquifers where it will be isolated from the environment. If not properly designed, constructed, and operated, UIC wells can pose a risk to the quality of underground sources of drinking water</term>
+      <term title="Volatile Organic Compounds (VOC)">Organic chemicals that can easily evaporate into the air. They are derived from various sources, such as fuels, solvents, paints, and industrial processes. VOCs can have both short-term and long-term health and environmental effects. They contribute to air pollution and can react with other pollutants to form smog and harmful ozone.</term>
+      <term title="Wastewater Branch- WWB">WWB stands for Wastewater Branch, which is also a regulatory branch under the Hawaiʻi Department of Health. The WWB oversees the regulation and management of wastewater discharges in the state, including the development of wastewater treatment standards and permits for wastewater treatment facilities.</term>
+      <term title="Water Budget">An accounting of the inputs, outputs, and storage of water in a particular area, often used to manage water resources.</term>
+      <term title="Zero-Discharge">A wastewater treatment process that completely eliminates any discharge of wastewater or effluent into the environment, typically through the use of advanced treatment technologies and high levels of reuse.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
